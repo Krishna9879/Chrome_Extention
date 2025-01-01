@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Crypto Price Tracker",
+    "version": "1.0",
+    "description": "Search for cryptocurrency prices in USD",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+   
+    "host_permissions": [
+      "https://api.coingecko.com/*"
+    ],
+    "icons": {
+     
+      "128": "crypto_image.png"
+    }
+  }
+  
